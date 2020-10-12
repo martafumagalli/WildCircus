@@ -1,0 +1,503 @@
+/* ----- GENERIC CSS ----- */
+/* ----- GENERIC CSS ----- */
+/* ----- GENERIC CSS ----- */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Amatic SC", monospace;
+  font-size: 17px;
+  min-width: 700px;
+  background-image: url(img/clown.jpg);
+  background-position: 50% 3%;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 30px;
+  letter-spacing: 0.18em;
+  font-weight: bolder;
+  text-align: center;
+  font-family: "Amatic SC", monospace;
+  width: 200px;
+  margin: auto;
+}
+
+section {
+  padding: 20px;
+}
+
+.anchor {
+  padding-top: 235px;
+}
+
+/* ----- HEADER ----- */
+/* ----- HEADER ----- */
+/* ----- HEADER ----- */
+
+header {
+  position: fixed;
+  width: 100%;
+  height: 120px;
+  color: #ffffff;
+  text-align: center;
+  background-color: #fc4444;
+  z-index: 10;
+  min-width: 700px;
+}
+
+header h1 {
+  font-family: "Major Mono Display", monospace;
+  font-size: 45px;
+  color: #ffffff;
+  text-align: left;
+  margin: 0;
+  float: left;
+  padding: 20px;
+}
+
+header img {
+  width: 80px;
+  vertical-align: baseline;
+}
+
+header #menu {
+  z-index: 10;
+}
+
+header #menu img {
+  width: 60px;
+  float: right;
+  margin: 50px 20px 0 0;
+}
+
+header #menu #show {
+  display: block;
+}
+
+header #menu #hide {
+  display: none;
+}
+
+/* ----- NAV ----- */
+/* ----- NAV ----- */
+/* ----- NAV ----- */
+
+nav {
+  padding-bottom: 0px;
+  position: fixed;
+  top: 120px;
+  width: 50%;
+  font-size: 28px;
+  letter-spacing: 0.18em;
+}
+
+nav a {
+  border-right: 1px solid #000000;
+  padding-right: 10px;
+}
+
+#myDropdown {
+  z-index: 10;
+  display: none;
+  text-align: left;
+  width: 44%;
+  background-color: #ededed;
+  border-bottom-right-radius: 50px;
+  box-shadow: 0 3px 4px #d1d1d1;
+}
+
+nav ul {
+  margin: 20px;
+}
+
+nav ul li {
+  font-weight: bolder;
+  display: inline;
+  list-style-type: none;
+  border-left: solid 3 red;
+}
+
+nav ul li a:hover {
+  background: #fc4444;
+  padding: 5px;
+  color: #ffffff;
+  border-right: none;
+}
+
+/* ----- WELCOME ----- */
+/* ----- WELCOME ----- */
+/* ----- WELCOME ----- */
+
+#welcome {
+  font-family: "Amatic SC", monospace;
+  position: relative;
+  top: 190px;
+  line-height: 1;
+  font-size: 140px;
+  font-weight: bolder;
+  transform: rotate(-14deg);
+  color: #001514;
+  width: 80%;
+}
+
+/* ----- PERFORMANCES SECTION ----- */
+/* ----- PERFORMANCES SECTION ----- */
+/* ----- PERFORMANCES SECTION ----- */
+
+#performance {
+  position: relative;
+  top: 660px;
+}
+
+#performance ul {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px;
+}
+
+#performance h3 {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: underline;
+  letter-spacing: 0.15em;
+}
+
+#performance ul li {
+  padding: 20px 40px;
+  margin: 10px;
+  border-radius: 20px;
+  background-color: #ededed;
+  text-align: center;
+  box-shadow: 4px 4px 5px #d1d1d1;
+}
+
+#performance p {
+  font-size: 13px;
+  font-family: monospace;
+
+  line-height: 25px;
+}
+
+/* ----- ABOUT US SECTION ----- */
+/* ----- ABOUT US SECTION ----- */
+/* ----- ABOUT US SECTION ----- */
+
+#about {
+  position: relative;
+  top: 740px;
+  background-color: #ededed;
+  box-shadow: 0 4px 5px #d1d1d1;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+#about .anchor {
+  padding-top: 240px;
+}
+
+#about div {
+  display: inline-block;
+  background-color: #ffffff;
+  box-shadow: 4px 4px 5px #d1d1d1;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin: 10px 20px 0 20px;
+}
+
+#about img {
+  width: 100px;
+  padding-top: 20px;
+}
+
+#about p {
+  width: auto;
+  margin: 50px 40px;
+  font-family: "Amatic SC", monospace;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.15em;
+}
+
+/* ----- PRICE SECTION ----- */
+/* ----- PRICE SECTION ----- */
+/* ----- PRICE SECTION ----- */
+
+#prices {
+  position: relative;
+  top: 840px;
+}
+
+#prices table {
+  width: auto;
+  font-family: monospace;
+  margin: auto;
+  margin-top: 20px;
+  padding: 20px;
+  text-align: center;
+  vertical-align: middle;
+  border-collapse: separate;
+  border-radius: 50px;
+  background-color: #ededed;
+  box-shadow: 4px 4px 5px #d1d1d1;
+  empty-cells: unset;
+  border-spacing: 0px;
+}
+
+#prices table td {
+  padding: 25px;
+  border: none;
+  width: auto;
+  border-top: 1px dotted #d1d1d1;
+}
+
+#prices table th {
+  padding-bottom: 0px;
+  padding-top: 0px;
+  width: auto;
+}
+#prices table th:first-child {
+  padding-right: 10px;
+  border-right: 1px dotted #d1d1d1;
+  text-align: right;
+}
+
+#prices table th img {
+  width: 120px;
+  transform: rotate(-15deg);
+  margin-right: 50px;
+}
+
+/* ----- CONTACT US SECTION ----- */
+/* ----- CONTACT US SECTION ----- */
+/* ----- CONTACT US SECTION ----- */
+
+#contact {
+  position: relative;
+  top: 920px;
+}
+
+#contact h2 {
+  color: #fc4444;
+}
+
+#contact form {
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+  font-family: monospace;
+}
+
+#contact form label {
+  font-family: "Amatic SC", monospace;
+  letter-spacing: 0.15em;
+  font-size: 18px;
+}
+
+#contact input,
+textarea {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 350px;
+  background-color: #ededed;
+  border: none;
+  box-shadow: 4px 4px 5px #d1d1d1;
+  font-family: monospace;
+}
+
+#contact textarea {
+  height: 200px;
+}
+
+#contact #submit {
+  width: 370px;
+  background-color: #fc4444;
+  color: #ffffff;
+}
+
+/* ----- FOOTER ----- */
+/* ----- FOOTER ----- */
+/* ----- FOOTER ----- */
+
+footer {
+  position: relative;
+  top: 960px;
+  background-color: #001514;
+  color: #ffffff;
+  padding: 40px;
+  line-height: 24px;
+  font-size: 11px;
+  text-align: center;
+  font-family: monospace;
+}
+
+footer a {
+  color: #fc4444;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#thanks {
+  font-family: "Amatic SC", monospace;
+  letter-spacing: 0.15em;
+  font-size: 28px;
+}
+
+/* ---- MEDIA QUERIES ---- */
+
+@media only screen and (max-width: 1100px) {
+  #welcome {
+    padding-top: 80px;
+    font-size: 120px;
+  }
+
+  #performance {
+    position: relative;
+    top: 450px;
+  }
+
+  #about {
+    position: relative;
+    top: 500px;
+  }
+
+  #prices {
+    position: relative;
+    top: 560px;
+  }
+
+  #contact {
+    position: relative;
+    top: 600px;
+  }
+
+  footer {
+    position: relative;
+    top: 650px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  #welcome {
+    padding-top: 80px;
+    font-size: 120px;
+  }
+
+  #performance {
+    position: relative;
+    top: 410px;
+  }
+
+  #about {
+    position: relative;
+    top: 460px;
+  }
+
+  #prices {
+    position: relative;
+    top: 500px;
+  }
+
+  #contact {
+    position: relative;
+    top: 560px;
+  }
+
+  footer {
+    position: relative;
+    top: 610px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #welcome {
+    padding-top: 80px;
+    font-size: 90px;
+  }
+
+  #performance {
+    position: relative;
+    top: 380px;
+  }
+
+  #about {
+    position: relative;
+    top: 430px;
+  }
+
+  #prices {
+    position: relative;
+    top: 490px;
+  }
+
+  #contact {
+    position: relative;
+    top: 530px;
+  }
+
+  footer {
+    position: relative;
+    top: 570px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  header h1 {
+    font-size: 35px;
+  }
+
+  header img {
+    width: 60px;
+  }
+
+  header #menu img {
+    width: 45px;
+  }
+
+  #welcome {
+    padding-top: 60px;
+    font-size: 70px;
+  }
+
+  #performance {
+    position: relative;
+    top: 360px;
+  }
+
+  #about {
+    position: relative;
+    top: 410px;
+  }
+
+  #prices {
+    position: relative;
+    top: 470px;
+  }
+
+  #contact {
+    position: relative;
+    top: 510px;
+  }
+
+  footer {
+    position: relative;
+    top: 560px;
+  }
+}

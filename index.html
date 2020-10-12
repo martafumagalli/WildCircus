@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Wild Circus</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+  <script src="script.js"></script>
+</head>
+
+<body>
+
+  <!--HEADER -->
+  <header>
+    <h1>
+      <img src="img/circus.svg" alt="Wild Circus" title="Wild Circus" /> WILD CIRCUS
+    </h1>
+    <div id="menu" style="background-color: aqua; height:0px;">
+      <img src="img/menu.svg" alt="Show Menu" title="Show Menu" id="show" />
+      <img src="img/delete.svg" alt="Hide Menu" title="Hide Menu" id="hide" />
+    </div>
+  </header>
+
+  <!--NAV -->
+  <nav id="myDropdown">
+    <ul>
+      <li><a href="#per">performances</a></li>
+      <li><a href="#abo">about us</a></li>
+      <li><a href="#pri">prices</a></li>
+      <li><a href="#con">contact</a></li>
+    </ul>
+  </nav>
+  </header>
+
+  <!-- WELCOME SECTION -->
+
+  <section id="welcome">
+    <span>
+          &nbsp;&nbsp;&nbsp;Welcome<br/>to the Circus!
+        </span>
+  </section>
+
+  <!-- PERFORMANCE SECTION -->
+
+  <section id="performance">
+    <h2><a class="anchor" id="per">performances</a></h2>
+    <ul>
+      <!-- performance 1 -->
+      <li>
+        <h3>laugh</h3>
+        <p>As an adult, come and discover our irresistible clowns, between practical jokes and pranks let yourself be carried away by their joy and fall back into childhood.</p>
+      </li>
+      <!-- performance 2 -->
+      <li>
+        <h3>dream</h3>
+        <p>Let yourself be carried away in a world where the real and the imaginary are one, in the company of our talented magicians, discover a wonderful world limited only by your imagination.</p>
+      </li>
+      <!-- performance 3 -->
+      <li>
+        <h3>marvel at</h3>
+        <p>Tame the untameable in the company of our tamers, between roar and razor-sharp claws, watch these fierce felines turn into sweet kittens.</p>
+      </li>
+    </ul>
+  </section>
+
+  <!-- ABOUT US SECTION -->
+
+  <section id="about">
+    <h2><a class="anchor" id="abo">about us</a></h2>
+    <div>
+      <a href="#"><img src="img/tent.svg" alt="Our history" title="Our history" /></a>
+      <p>our history</p>
+    </div>
+    <div>
+      <a href="#"><img src="img/cannon.svg" alt="Our shows" title="Our shows" /></a>
+      <p>our shows</p>
+    </div>
+    <div>
+      <a href="#"><img src="img/hat.svg" alt="Our artists" title="Our artists" /></a>
+      <p>our artists</p>
+    </div>
+    <div>
+      <a href="#"><img src="img/seal.svg" alt="Our animals" title="Our animals" /></a>
+      <p>our animals</p>
+    </div>
+  </section>
+
+  <!-- PRICES SECTION -->
+
+  <section id="prices">
+    <h2><a class="anchor" id="pri">prices</a></h2>
+    <table>
+      <tr>
+        <th> <img src="img/ticket.svg" alt="Ticket" title="Our Tickets" /></th>
+        <th>Adults</th>
+        <th>Kids(under 12)</th>
+        <th>Groups (+ 10 people)</th>
+        <th>Schools</th>
+      </tr>
+      <tr>
+        <th>Weekdays (except Wed.)</th>
+        <td>$25</td>
+        <td>$15</td>
+        <td>$20 (+ 10 people)</td>
+        <td>$18</td>
+      </tr>
+      <tr>
+        <th>Weekends and Wed.</th>
+        <td>$35</td>
+        <td>$18 Kids(under 12)</td>
+        <td>$25</td>
+        <td>$20</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- CONTACT US SECTION -->
+
+  <section id="contact">
+    <h2><a class="anchor" id="con">contact us</a></h2>
+    <form method="post" name="contact-us" action="#">
+      <label for="name">your name:</label><br/>
+      <input type="text" name="name" id="name" placeholder="eg. John Doe"><br/>
+      <label for="email">email address:</label><br/>
+      <input type="email" name="email" id="email" placeholder="eg. johndoe@mail.com"><br/>
+      <label for="message">message:</label><br/>
+      <textarea name="message" id="message" rows="" cols="" placeholder="write here your message..."></textarea><br/>
+      <input type="submit" value="Submit" id="submit">
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+
+  <footer>
+    <p id="thanks">THX :)</p>
+    <p>Wild Circus by Marta Fumagalli (alias <a href="http://www.diafana-design.com" target="_blank">Diafana</a>)
+      <br/> Visit my <a href="http://www.france-ioi.org/user/perso.php?sLogin=diafana&bShow=Afficher" target="_blank">France-IOI</a> profile</a>
+      <br/> Visit my <a href="https://www.sololearn.com/Profile/7753638" target="_blank">SoloLearn</a> profile
+      <br/> Visit <a href="https://wildcodeschool.fr" target="_blank"> Wild Code School </a>website
+      <br/> Date of realisation: 20th december 2018</p>
+  </footer>
+
+</body>
+
+</html>
